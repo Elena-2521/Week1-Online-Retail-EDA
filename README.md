@@ -59,7 +59,7 @@ Identified missing data without removing any rows:
 | Customer ID | 243,007 | 22.77% |
 | Description | 4,382 | 0.41% |
 
-📷 *[images/MissingValues_plot.png]*
+📷 ![Missing Values Bar Chart](images/MissingValues_plot.png)
 
 ### 4. Duplicate Rows
 - **34,335 fully duplicate rows found** — approximately **3.22%** of the dataset.
@@ -83,7 +83,7 @@ Identified missing data without removing any rows:
 | PACK OF 72 RETROSPOT CAKE CASES | 49,344 |
 | PACK OF 72 RETRO SPOT CAKE CASES | 46,106 |
 
-📷 *[images/Top10ByQuantity.png]*
+📷 ![Top 10 Products by Quantity](images/Top10ByQuantity.png)
 
 ### 7. Top 10 Best-Selling Products — By Revenue
 
@@ -100,7 +100,7 @@ Identified missing data without removing any rows:
 | CHILLI LIGHTS | 84,854.16 |
 | ROTATING SILVER ANGELS T-LIGHT HLDR | 73,814.72 |
 
-📷 *[images/Top10ByRevenue.png]*
+📷 ![Top 10 Products by Revenue](images/Top10ByRevenue.png)
 
 ### 8. Sales Performance by Country
 
@@ -117,13 +117,13 @@ Identified missing data without removing any rows:
 | Sweden | 87,809.42 |
 | Denmark | 65,741.09 |
 
-📷 *[images/BestCountriesByRev.png]*
+📷 ![Top Countries by Revenue](images/BestCountriesByRev.png)
 
 ### 9. Revenue Over Time — Monthly Trend
 - Converted `InvoiceDate` to a proper datetime format and grouped revenue by month.
 - Plotted a line chart showing revenue trends from Dec 2009 to Dec 2011, with visible seasonal peaks.
 
-📷 *[images/MonthlyRevenueTrend.png]*
+📷 ![Monthly Revenue Trend](images/MonthlyRevenueTrend.png)
 
 ### 10. Correlation Heatmap
 
@@ -133,7 +133,7 @@ Identified missing data without removing any rows:
 | **Price** | -0.001 | 1.00 | 0.06 |
 | **Revenue** | 0.76 | 0.06 | 1.00 |
 
-📷 *[images/CorrHeatmap.png]*
+📷 ![Correlation Heatmap](images/CorrHeatmap.png)
 
 ### 11. Outlier Detection (Box Plots + IQR Method)
 Visualized outliers using box plots and quantified them using the IQR (Interquartile Range) method:
@@ -144,7 +144,7 @@ Visualized outliers using box plots and quantified them using the IQR (Interquar
 | Price | 68,105 |
 | Revenue | 90,922 |
 
-📷 *[images/Boxplot_Outliers.png]*
+📷 ![Boxplot Outlier Detection](images/Boxplot_Outliers.png)
 
 > No outliers were removed — this stage is observation-only, as instructed.
 
